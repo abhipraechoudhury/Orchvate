@@ -90,10 +90,8 @@
 					<!-- home content -->
 					<div class="col-md-10 col-md-offset-1">
 						<div class="home-content">
-							<h2 class="white-text">Orchvate is a confluence of Orchestra and Innovate.</h2>
-							<br>
-							<p class="white-text">Orchvate offers innovative approach that will build an autism inclusive society, where boundaries are broken and we work together to create wonders.
-							</p>
+							<h3 class="white-text"><span id="chkWidth" style="display: none;"></span></h3>
+							<h3 class="white-text" id="changingtext"><span>Orchvate offers innovative approach that will build an autism inclusive society, where boundaries are broken and we work together to create wonders.</span></h3>
 						</div>
 					</div>
 					<!-- /home content -->
@@ -688,6 +686,43 @@
 	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<!-- <script>
+		var text = ["Orchvate is a confluence of Orchestra and Innovate.", "Orchvate offers innovative approach that will build an autism inclusive society, where boundaries are broken and we work together to create wonders."];
+		var counter = 0;
+		var elem = document.getElementById("changeText");
+		elem.style.transitionProperty = "innerHTML";
+		elem.style.transitionDelay = "5s";
+		elem.innerHTML = text[counter];
+		var inst = setInterval(change, 3000);
+
+		function change() {
+			elem.innerHTML = text[counter];
+			counter++;
+			if (counter >= text.length) {
+				counter = 0;
+				// clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+			}
+		}
+	</script> -->
+	<script>
+		$(function() {
+		var t1 = ["Orchvate offers innovative approach that will build an autism inclusive society, where boundaries are broken and we work together to create wonders.", "Orchvate is a confluence of Orchestra and Innovate."];
+		var i = 0;
+		var width;
+		var tid = setInterval(
+			function() {
+				$("#changingtext span").animate({'opacity': 0}, 1000, function () {
+					$(this).text(t1[i]);
+					$(this).animate({'opacity': 1}, 1000);
+				});
+				if(i < t1.length -1) 
+					i++;
+				else i = 0;
+
+			}, 6000);
+
+		});
+	</script>
 
 </body>
 
