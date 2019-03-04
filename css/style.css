@@ -1,8 +1,8 @@
 /*
 Colors:
 	Body 		  : #868F9B
-	Headers 	: #10161A
-	Primary 	: #6195FF
+	Headers 	: #01215D
+	Primary 	: #02B150
 	Dark      : #FCFCFF
 	Grey 		  : #F4F4F4 #FAFAFA #EEE
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     margin-top: 0px;
     margin-bottom: 20px;
-    color: #10161A;
+    color: #01215D;
 }
 
 h1 {
@@ -78,7 +78,7 @@ h5 {
 }
 
 a {
-    color: #6195FF;
+    color: #02B150;
     text-decoration: none;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
@@ -88,11 +88,11 @@ a:hover, a:focus {
     text-decoration: none;
     outline: none;
     opacity: 0.8;
-    color: #6195FF;
+    color: #02B150;
 }
 
 .main-color {
-    color: #6195FF;
+    color: #02B150;
 }
 
 .white-text {
@@ -100,12 +100,12 @@ a:hover, a:focus {
 }
 
 ::-moz-selection {
-    background-color: #6195FF;
+    background-color: #02B150;
     color: #FFF;
 }
 
 ::selection {
-    background-color: #6195FF;
+    background-color: #02B150;
     color: #FFF;
 }
 
@@ -186,7 +186,7 @@ ul, ol {
   	display:block;
   	height:4px;
   	width:40px;
-  	background-color: #6195FF;
+  	background-color: #02B150;
     margin-top: 20px;
 }
 
@@ -216,7 +216,7 @@ textarea {
 }
 
 input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="date"]:focus, input[type="url"]:focus, input[type="tel"]:focus, textarea:focus {
-    border-color: #6195FF;
+    border-color: #02B150;
     opacity: 1;
 }
 
@@ -233,19 +233,19 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .main-btn {
-    background: #6195FF;
+    background: #02B150;
     color: #FFF;
 }
 
 .white-btn {
     background: #FFF;
-    color: #10161A !important;
+    color: #01215D !important;
 }
 
 .outline-btn {
     background: transparent;
-    color: #6195FF !important;
-    border-color: #6195FF;
+    color: #02B150 !important;
+    border-color: #02B150;
 }
 
 .main-btn:hover, .white-btn:hover, .outline-btn:hover {
@@ -332,7 +332,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s color;
     }
     .main-nav>li>a {
-        color: #10161A;
+        color: #01215D;
         padding: 15px 0px;
     }
     #nav.nav-transparent:not(.fixed-nav) .main-nav>li>a {
@@ -340,12 +340,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
     }
     .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
         background: transparent;
-        color: #6195FF;
+        color: #02B150;
     }
     .main-nav>li>a:after {
         content: "";
         display: block;
-        background-color: #6195FF;
+        background-color: #02B150;
         height: 2px;
         width: 0%;
         -webkit-transition: 0.2s width;
@@ -374,7 +374,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         position: absolute;
         right: -50%;
         top: 0;
-        background-color: #6195FF;
+        background-color: #02B150;
         width: 200px;
         -webkit-box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
         box-shadow: 0px 5px 5px -5px rgba(53, 64, 82, 0.2);
@@ -462,10 +462,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
         transition: 0.2s all;
     }
     .main-nav>li.active {
-        border-left: 6px solid #6195FF;
+        border-left: 6px solid #02B150;
     }
     .main-nav li a:hover, .main-nav li a:focus {
-        background-color: #6195FF;
+        background-color: #02B150;
         color: #FFF;
         opacity: 1;
     }
@@ -533,7 +533,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 
 .nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
     height: 4px;
-    background: #10161A;
+    background: #01215D;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
 }
@@ -632,7 +632,7 @@ header {
 
 .about i {
     font-size: 36px;
-    color: #6195FF;
+    color: #02B150;
     margin-bottom: 20px;
 }
 
@@ -741,7 +741,7 @@ header {
     -ms-transform: translateY(100%);
     transform: translateY(100%);
     opacity: 0;
-    color: #6195FF;
+    color: #02B150;
     margin-bottom: 5px;
     -webkit-transition: 0.2s all;
     transition: 0.2s all;
@@ -770,7 +770,7 @@ header {
     display: inline-block;
     width: 50px;
     height: 50px;
-    background-color: #6195FF;
+    background-color: #02B150;
     color: #FFF;
     line-height: 50px;
     text-align: center;
@@ -789,9 +789,10 @@ header {
 
 .service {
     position: relative;
-    padding: 40px 20px 40px 70px;
+    padding: 30px 30px 20px 40px;
     margin: 15px 0px;
     border: 1px solid #EEE;
+    min-height: 281px;
 }
 
 .service i {
@@ -799,7 +800,7 @@ header {
     left: 20px;
     text-align: center;
     font-size: 32px;
-    color: #6195FF;
+    color: #02B150;
     border-radius: 50%;
 }
 
@@ -840,8 +841,8 @@ header {
     float: left;
     padding: 5px;
     border-radius: 50%;
-    color: #6195FF;
-    border: 1px solid #6195FF;
+    color: #02B150;
+    border: 1px solid #02B150;
     margin-right: 5px;
 }
 
@@ -855,7 +856,7 @@ header {
 }
 
 .number i {
-    color: #6195FF;
+    color: #02B150;
     font-size: 36px;
     margin-bottom: 20px;
 }
@@ -910,7 +911,7 @@ header {
 }
 
 .pricing:hover .price-title {
-    color: #6195FF;
+    color: #02B150;
 }
 
 .pricing .price {
@@ -921,7 +922,7 @@ header {
     text-align: center;
     margin: auto;
     border-radius: 50%;
-    border: 2px solid #6195FF;
+    border: 2px solid #02B150;
 }
 
 .pricing .price h3 {
@@ -946,7 +947,7 @@ header {
     display: block;
     font-size: 14px;
     text-transform: uppercase;
-    color: #10161A;
+    color: #01215D;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
@@ -991,7 +992,7 @@ header {
 
 .testimonial span {
     font-size: 14px;
-    color: #6195FF;
+    color: #02B150;
     text-transform: uppercase;
 }
 
@@ -1074,7 +1075,7 @@ header {
 }
 
 .team:hover .team-content span {
-    color: #6195FF;
+    color: #02B150;
 }
 
 .team .team-social {
@@ -1091,7 +1092,7 @@ header {
     line-height: 50px;
     width: 50px;
     text-align: center;
-    background-color: #6195FF;
+    background-color: #02B150;
     color: #FFF;
 }
 
@@ -1121,12 +1122,12 @@ header {
 .blog .blog-meta li {
     display: inline-block;
     font-size: 14px;
-    color: #10161A;
+    color: #01215D;
     margin-right: 10px;
 }
 
 .blog .blog-meta li i {
-    color: #6195FF;
+    color: #02B150;
     margin-right: 5px;
 }
 
@@ -1159,17 +1160,17 @@ header {
     font-size: 14px;
     margin: 2px 0px;
     background: #F4F4F4;
-    color: #10161A;
+    color: #01215D;
 }
 
 .blog-tags a:hover {
   color: #FFF;
-  background-color: #6195FF;
+  background-color: #02B150;
 }
 
 .blog-tags a i {
     margin-right: 3px;
-    color: #6195FF;
+    color: #02B150;
 }
 
 .blog-tags a:hover i {
@@ -1217,7 +1218,7 @@ header {
     border-radius: 3px;
     margin-left: 5px;
     color: #FFF;
-    background-color: #6195FF;
+    background-color: #02B150;
 }
 
 /* -- blog comments -- */
@@ -1270,11 +1271,11 @@ header {
 
 .blog-comments .media.author {
     background-color: #F4F4F4;
-    border-color: #6195FF;
-    border-bottom: 1px solid #6195FF;
+    border-color: #02B150;
+    border-bottom: 1px solid #02B150;
 }
 .blog-comments .media.author>.media-body>.media-heading {
-    color: #6195FF;
+    color: #02B150;
 }
 
 .blog-comments .media.author + .media {
@@ -1332,7 +1333,7 @@ header {
     border: none;
     line-height: 40px;
     background-color: transparent;
-    color: #6195FF;
+    color: #02B150;
 }
 
 /* -- category sidebar -- */
@@ -1351,11 +1352,11 @@ header {
 
 .widget-category a span {
     float: right;
-    color: #6195FF;
+    color: #02B150;
 }
 
 .widget-category a:hover {
-    color: #6195FF;
+    color: #02B150;
 }
 
 /* -- tags sidebar -- */
@@ -1366,12 +1367,12 @@ header {
   font-size: 14px;
   margin: 2px 0px;
   background: #F4F4F4;
-  color: #10161A;
+  color: #01215D;
 }
 
 .widget-tags a:hover {
   color: #FFF;
-  background-color: #6195FF;
+  background-color: #02B150;
 }
 
 /* -- posts sidebar -- */
@@ -1390,11 +1391,11 @@ header {
 
 .widget-post a {
     display: block;
-    color: #10161A;
+    color: #01215D;
 }
 
 .widget-post a:hover {
-    color: #6195FF;
+    color: #02B150;
 }
 
 .widget-post .blog-meta {
@@ -1404,12 +1405,12 @@ header {
 .widget-post .blog-meta li {
     display: inline-block;
     margin-right: 5px;
-    color: #6195FF;
+    color: #02B150;
     font-size: 12px;
 }
 
 .widget-post li i {
-    color: #6195FF;
+    color: #02B150;
     margin-right: 5px;
 }
 
@@ -1426,7 +1427,7 @@ header {
 
 .contact i {
     font-size: 36px;
-    color: #6195FF;
+    color: #02B150;
     margin-bottom: 20px;
 }
 
@@ -1483,7 +1484,7 @@ header {
   line-height: 50px;
   text-align: center;
   border-radius: 3px;
-  background-color: #6195FF;
+  background-color: #02B150;
   color:#FFF;
 }
 
@@ -1590,10 +1591,10 @@ header {
 }
 
 .owl-theme .owl-dots .owl-dot:hover span {
-    background: #6195FF;
+    background: #02B150;
 }
 .owl-theme .owl-dots .owl-dot.active span {
-	  background: #6195FF;
+	  background: #02B150;
 	  width:20px;
 }
 
@@ -1615,7 +1616,7 @@ header {
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    background: #6195FF;
+    background: #02B150;
     color: #FFF;
   	padding: 0px;
   	width: 50px;
@@ -1635,7 +1636,7 @@ header {
 
 .owl-theme .owl-nav [class*='owl-']:hover {
     opacity: 0.8;
-    background: #6195FF;
+    background: #02B150;
 }
 
 
@@ -1652,7 +1653,7 @@ header {
   	height: 50px;
   	line-height: 50px;
   	text-align: center;
-  	background: #6195FF;
+  	background: #02B150;
   	border-radius:3px;
   	color: #FFF;
   	z-index: 9999;
@@ -1695,7 +1696,7 @@ header {
 }
 .preloader span {
     display: inline-block;
-    background-color: #6195FF;
+    background-color: #02B150;
     width: 25px;
     height: 25px;
     -webkit-animation: 1s preload ease-in-out infinite;
@@ -1755,3 +1756,48 @@ header {
             transform:scale(0);
   }
 }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .fake-link{
+      cursor: pointer;
+      transition: 0.2s opacity;
+      color: #02B150
+  }
