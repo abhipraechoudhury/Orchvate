@@ -789,10 +789,9 @@ header {
 
 .service {
     position: relative;
-    padding: 30px 30px 20px 40px;
+    padding: 20px 20px 20px 20px;
     margin: 15px 0px;
     border: 1px solid #EEE;
-    min-height: 281px;
 }
 
 .service i {
@@ -804,7 +803,7 @@ header {
     border-radius: 50%;
 }
 
-.service:after {
+/*.service:after {
     content: "";
     background-color: #1C1D21;
     position: absolute;
@@ -815,7 +814,7 @@ header {
     z-index: -1;
     -webkit-transition: 0.2s width;
     transition: 0.2s width;
-}
+}*/
 
 .service:hover:after {
     width: 100%;
@@ -826,9 +825,9 @@ header {
   transition: 0.2s color;
 }
 
-.service:hover h3 {
+/*.service:hover h3 {
     color: #fff;
-}
+}*/
 
 /*------------------------------------*\
 	Why choose us
@@ -1800,4 +1799,10 @@ header {
       cursor: pointer;
       transition: 0.2s opacity;
       color: #02B150
+  }
+
+  .service-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
