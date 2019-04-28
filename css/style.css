@@ -627,7 +627,7 @@ header {
     padding: 40px 20px;
     border: 1px solid #EEE;
     margin: 15px 0px;
-    height: 290px;
+    /*height: 290px;*/
 }
 
 .about i {
@@ -789,21 +789,21 @@ header {
 
 .service {
     position: relative;
-    padding: 20px 20px 20px 20px;
-    margin: 15px 0px;
+    text-align: center;
+    padding: 20px 20px;
     border: 1px solid #EEE;
+    margin: 15px 0px;
+    /*height: 290px;*/
+    min-height: 455px;
 }
 
 .service i {
-    position: absolute;
-    left: 20px;
-    text-align: center;
-    font-size: 32px;
+    font-size: 36px;
     color: #02B150;
-    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-/*.service:after {
+/* .about:after {
     content: "";
     background-color: #1C1D21;
     position: absolute;
@@ -814,20 +814,20 @@ header {
     z-index: -1;
     -webkit-transition: 0.2s width;
     transition: 0.2s width;
-}*/
-
-.service:hover:after {
-    width: 100%;
 }
+
+.about:hover:after {
+    width: 100%;
+} */
 
 .service h3 {
-  -webkit-transition: 0.2s color;
-  transition: 0.2s color;
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
 }
 
-/*.service:hover h3 {
+/* .about:hover h3 {
     color: #fff;
-}*/
+} */
 
 /*------------------------------------*\
 	Why choose us
