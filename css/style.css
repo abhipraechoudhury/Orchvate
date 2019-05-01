@@ -144,6 +144,10 @@ ul, ol {
     background-color: #1C1D21;
 }
 
+.bg-white {
+    background-color: #FFF;
+}
+
 
 /* --  background image section  -- */
 
@@ -829,6 +833,27 @@ header {
     color: #fff;
 } */
 
+.service_ind {
+    position: relative;
+    text-align: center;
+    padding: 20px 20px;
+    border: 1px solid #EEE;
+    margin: 15px 0px;
+    /*height: 290px;*/
+    min-height: 320px;
+}
+
+.service_ind i {
+    font-size: 36px;
+    color: #02B150;
+    margin-bottom: 20px;
+}
+
+.service_ind h3 {
+    -webkit-transition: 0.2s color;
+    transition: 0.2s color;
+}
+
 /*------------------------------------*\
 	Why choose us
 \*------------------------------------*/
@@ -1111,7 +1136,7 @@ header {
 
 .blog .blog-content {
     padding: 20px 20px 40px;
-    min-height: 426px;
+    min-height: 380px;
 }
 
 .blog .blog-meta {
